@@ -1,0 +1,22 @@
+#def inverter_numero():
+#    string = input("Digite um número positivo: ")
+#    if string.isdigit():
+#        inversa = ""
+#        for x in string:
+#            inversa = x + inversa
+#        inverso_numero = int(inversa)
+#      print("Número invertido:", inverso_numero)
+#   else:
+#        print("Por favor, digite um número positivo válido:  ")
+#inverter_numero()
+
+def inverter_numero():
+    string = input("Digite um número positivo: ")
+    return int(string)
+for i in range():
+    inversa = i + inversa
+inverso_numero = int(inversa)
+print(inversa)
+
+
+inverter_numero()

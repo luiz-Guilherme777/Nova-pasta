@@ -1,0 +1,16 @@
+n = int (input("digite uma quanridade de números: "))
+anterior=int(input())
+
+i=1 #le numero
+ordenado = 0 #primo é a variavel indicadora
+
+while (i < n) and (ordenado == 0):
+    atual= int(input())
+    i = i+1#leu mais um numero
+    if (atual < anterior ): 
+        ordenado = ordenado +1
+    anterior = atual
+if (ordenado == 0):
+    print ("sequencia ordenada")
+else:
+    print(" sequencia não ordenada ordenada")
